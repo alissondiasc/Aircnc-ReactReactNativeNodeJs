@@ -1,13 +1,18 @@
 //Backend comandos
-yarn init -y ou npm init -y instaCriar documento packpage.json
+npm install - instalar bibliotecas
+
+nodemon server.js subir servidor
 //FrontendWeb comandos
-npx create-react-app frontend   criar projeto react e com estrutura de arquivos.
+npm install - installar bibliotecas 
+npm start subir servidor 
+
 //FrontendMobile comandos
 
-npm install -g explo-cli --- dependencia de configuração hibrida.
 
-expo init frontend-mobile criar projeto mobile e estruturar arquivos
-yarn start subir servidor
+npm install - installar bibliotecas 
+npm start subir servidor 
+
+
 
 
 
