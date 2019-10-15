@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/lib/nodejs/node-v8.16.0-linux-x64/bin/node /usr/share/yarn/bin/yarn.js add mongoose
+
+PATH: 
+  /usr/local/lib/nodejs/node-v8.16.0-linux-x64/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+Yarn version: 
+  1.19.0
+
+Node version: 
+  8.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: http://npm.maisvida.med.br:4873/express: unregistered users are not allowed to access package express
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66918:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140539:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141511:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141433:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "backerd",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts":{
+      "dev":"nodemon src/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
